@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "target_anomaly": "Xenon-129 Overabundance",
+    "framework_reference": "Chapter 5: The Fission Storm",
+    "verification_method": "Fast-Neutron Fission Yield Mapping"
+  },
+  "observed_ratios": {
+    "mars_atmosphere_xe129_to_xe132": 2.50,
+    "earth_atmosphere_xe129_to_xe132": 1.01,
+    "primordial_solar_wind_xe129_to_xe132": 1.00
+  },
+  "fission_constants": {
+    "u235_fast_neutron_fission_yield_mass129": 0.063,
+    "heavy_water_moderating_ratio_d2o": 21750.0,
+    "light_water_moderating_ratio_h2o": 45.45
+  },
+  "testable_subsurface_prediction": {
+    "sample_source": "Terrestrial transition-zone ringwoodite / Deep oceanic trenches",
+    "predicted_anomalous_xe129_presence": "True",
+    "expected_ratio_match": "mars_atmosphere_xe129_to_xe132"
+  }
+}
